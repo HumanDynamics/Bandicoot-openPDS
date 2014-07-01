@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string name="terms_and_conditions_complete">This demo from the MIT Media Lab shows how metadata can be safely used at large-scale through openPDS/SafeAnswers (http://openpds.media.mit.edu).\nThe data is collected using the FUNF framework (http://funf.org) and the metadata processing through the bandicoot toolbox (http://bandicoot.media.mit.edu).\nThis application will collect mobile phone metadata (call and text logs with first name of the contact) and upload them to a secure MIT server. \nThe data can then be displayed by entering the unique pin onto the demo screen. The data will only be used for display purposes and will be deleted one week after has been uploaded.
+</string>
+    
+</resources>

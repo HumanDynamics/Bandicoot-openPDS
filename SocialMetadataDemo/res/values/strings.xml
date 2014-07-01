@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">bandicoot+openpds demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="registry_url">http://socialmetadataregistry.linkedpersonaldata.org</string>
+    <string name="client_key">3e989c28c5440ae5eb393bc97d07a5</string>
+    <string name="client_secret">583cd3884f0997a53faadc61821b34</string>
+    <string name="client_basic_auth">Basic M2U5ODljMjhjNTQ0MGFlNWViMzkzYmM5N2QwN2E1OjU4M2NkMzg4NGYwOTk3YTUzZmFhZGM2MTgyMWIzNA==</string>
+    <string name="title_activity_terms_and_conditions">Terms and Conditions</string>
+    <string name="agree">Agree</string>
+    <string name="main_pipeline_config">        {
+			"@type": "edu.mit.media.openpds.client.funf.OpenPDSPipeline",
+			"schedules": {
+				"archive": {
+					"strict": false,
+					"interval": 86405
+				},
+				"upload": {
+					"strict": true,
+					"interval": 60
+				}
+			},
+			"data": [		
+				{
+					"@type": "edu.mit.media.funf.probe.builtin.SmsProbe",
+					"@schedule": {
+						"strict": true,
+						"interval": 900, 
+						"opportunistic": true
+					}
+				},				
+				{
+					"@type": "edu.mit.media.funf.probe.builtin.CallLogProbe",
+				    "@schedule": {
+					    "strict": true,
+					    "interval": 900,
+					    "opportunistic": true
+					}
+				}
+			]
+		}</string>
+    <string name="checking_data">Checking whether your data is unique...</string>
+    <string name="collecting_data">Collecting data, please check back later.</string>
+    <string name="pin_label">Your PIN is:</string>
+    <string name="pin_description">(enter it on the demo site to view your data)</string>
+    <string name="start_collecting_data">Start Demo</string>
+
+</resources>
